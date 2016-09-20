@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+
+    <Button
+        android:onClick="onclick1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="这是个对话框"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/button1"
+        android:background="#000000" />
+    <Button
+        android:onClick="onclick2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="登陆对话框"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/button2"
+        android:background="#ED0F0F" />
+
+</LinearLayout>
